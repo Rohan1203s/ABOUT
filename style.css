@@ -165,3 +165,19 @@ canvas {
   }
 
 }
+
+
+@media screen and (max-width: 600px){
+  .card{
+    height: 40vh !important;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-height: 600px){
+  .card{
+    height: 40vh !important;
+    font-size: 2vh;
+
+  }
+}
