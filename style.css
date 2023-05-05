@@ -138,12 +138,15 @@ canvas {
   background-image: linear-gradient(to bottom, rgb(253, 253, 119), rgb(192, 84, 183))!important;
   width: 100vw;
   height: 100vh;
+
 }
 
 .interest {
   background-image: linear-gradient(to bottom, #295854, rgb(91, 43, 100))!important;
   width: 100vw;
   height: 100vh;
+  z-index:5;
+
 }
 
 .contact {
@@ -338,5 +341,25 @@ canvas {
 .list-inline-item:hover {
   transform: scale(1.5);
   transition: transform 0.050s ease-in-out;
+
+}
+
+.flying {  
+  display: none !important;
+  position: fixed !important;
+  top:50%;
+  left: 18%;
+}
+#interest .flying {
+  display: block !important;
+}
+
+
+#interest > div:only-of-type > .flying {
+  display: none !important;
+  position: fixed !important;
+  top:50%;
+  left: 18%;
+
 
 }
