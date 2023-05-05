@@ -83,7 +83,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Interests</h5>
-                <p class="card-text">producing music
+                <p>producing music
                   video editing 
                   building apps
                   cgi
@@ -199,7 +199,7 @@
     
         
     <div class="work" id="work">
-      <div class=" workcontainer-fluid px-0 glass" id="work">
+      <div class="container-fluid px-0 glass" id="work">
         <div class="row">
           <div class="col-12">
             <div id="ball"></div>
@@ -209,14 +209,29 @@
         </div>
     </div>
     <div class="interest" id="interest">
-      <div class="container-fluid px-0 glass">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAABzCAMAAAA7bLlqAAAAY1BMVEX///9NTU1DQ0NHR0f6+vpKSkpiYmLu7u48PDyVlZVtbW28vLzW1tZAQEA5OTnr6+vd3d2IiIjKyspnZ2dbW1szMzOwsLD09PR4eHiCgoJUVFSOjo4uLi6ioqLDw8OcnJwnJyeNKYXoAAAD2UlEQVR4nO2ba3ejIBBAI0hiElGjRhvz2v//K9dmUx8EYUaQes5yv7Y0t8gwM2A2G4/H4/F4PP8P4apQiF5v0WpItgrRPQ9WAz2oREkQsFWgF2XldgWUelFS1btfp86pXvSo+LkzYr0o96IYvKhtvKhtfkU0zfNMVWDIcC9a35vbObklpww1zLloXL7LHBJUqHGORTNCf4ohdsOYOhYNCRvUbVEOH+lYtIpGBWYBH+lWtN6OS2ESg4e6Fc2oIApfpW5F40QQ3cOHOhXNRdEreKjjRy+0iuQOHupWdFeysegDPNTx9vTd1PawBp7xHYumf4aiCSI1uU6hx8Eq5SfEQOdFScXfeynjX5hx7su8uDhzSvgZVzz9SuGcVs/rPW/jCFM8+1bENl7UNl7UNpZF94guCIdd0YpHqbmTFKuiMW/7tdqClexvWxTNgrbaxGVwOBZF6/JVbpCnFTERi6Knd1GcPHBZHIY90X13tkCWCH1rose+yWDBAqFvSzQ+D1oMWqz20WfNqL0kF2uCP1gS3QpnNRzesAOxI3ohgcDZdoFgRfQuuStnsd09yoboUXanz4KdTU8bouIRXRf6VrO+uWgqnCf1AQU/qnMhGhYfgdSZ2sz6pqLhadKzDX34Yd0m1iwUU9Hx7YEYUBR86ZWRi3qTMBSVBvzAFJr104BxdTYzEQ03GZ8IpB/oAbSZvkpZ9YG+0YymjcYTGPp18crAiSrvGs3ogeo8QVk/PBD975qIXhUB36O9RxxsHMn0NmEgej+r/Hp013OnQWZLJpfZTNE2RB6g+WyhW2Xoj+4fGJua/9kzmhJtIHVTqvqAavxcWDSx9c4VnczwMhS3CvePhEHlK2Xuo/+CPvh/ptLz+lCaMGgjXSkzRU/I10oT+dJ7yCpEWspM54lW8hJ0GsZkSy9n0vVDC0nNPUs0Rz3394d/VkeTCVgWfXNExTtiEOTjtYyYTsYj//ooEWaI1mJvDCN6jo+k0lLxZ8jHPoEXRQb8wHQU+juVZzunYimFF8UGfM/w8GxXaB5LIvQxaNEjMMNLGJbRB+1jEfZerOhD1XrooNt36IOWz5/RBCFFX6ffBqbvj7qCls9ohnCi4byA74lepTHw6xJsWCCiRGcHfM/32xlPaF5jUW+KEt0be34XRxW8QKRll3kxokdshpfBAsx/S7uNAiE6I8PLTTF07QFcFNAbLwE51DjRsDEM+Nmm2xAjqjwMWxb+OpWCiu5NMpIh0QUmSqpdqjy0Wxx+TdOHXjRoSkzLuQCMliXgG2LYHWUx9KIrQSl6TchqiBBvw3s8Ho/H4/G44i/5tkshp0FTWQAAAABJRU5ErkJggg==" class="flying" alt="...">
+      <div class="container">
         <div class="row">
           <div class="col-12">
-            <div id="ball"></div>
-              <h1>Interest</h1>
-            </div>
+            <h1 class="text-center mt-5">Interest</h1>
           </div>
         </div>
+        <div class="card shadow-lg">
+          <div class="card-header">
+            <h5 class="card-title">Interests</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Producing music</li>
+              <li class="list-group-item">Video editing</li>
+              <li class="list-group-item">Building apps</li>
+              <li class="list-group-item">CGI</li>
+              <li class="list-group-item"></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="contact" id="contact">
       <div class="container-fluid px-0 glass">
@@ -230,7 +245,7 @@
         <div class="card mx-auto mt-4 mb-4" style="max-width: 1000px;">
           <div class="card-body">
             <h5 class="card-title">Example Form</h5>
-            <form method="POST" action="send-email.php">
+            <form method="POST" action="https://formspree.io/f/mzbqoanr">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
@@ -304,6 +319,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="script.js"></script>
     <script src="./app.js"></script>
     <script type="module" src="js/main.js"></script>
 
